@@ -1,0 +1,98 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: color #ffd3fc;
+    color: #333;
+  line-height: 1.6;
+
+}
+header{
+    background-color: #bf55fd;
+    color: rgb(244, 226, 255);
+    text-align: center;
+    padding: 20px 0;
+}
+header h1{
+    margin:0;
+   font: size 2.2em;
+   
+}
+section{
+    padding: 50px;
+margin: 10px auto;
+max-width: 900px;
+}
+.faixa-blog {
+        width: 100%;
+        padding: 35px 20px;
+        box-sizing: border-box;
+        background-color: #dd9efa;
+        color: #ebc7ff;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 3rem;
+        font-weight: bold;
+        border-radius: 20px;
+        margin-bottom: 25px;
+    }
+
+        .container-postagens {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            min-height: 50vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .card-postagem {
+            width: 305px;
+            aspect-ratio: 1 / 1;
+            flex-shrink: 0;
+            padding: 25px;
+            box-sizing: border-box;
+            background-color: #e0b8fa;
+            border: 2px solid #af00f5;
+            border-radius: 25px;
+            overflow-y: auto;
+            overflow-wrap: anywhere;
+        }
+
+        /* Estilo do título dentro da div */
+        .card-postagem h2 {
+            font-size: 1.6rem;
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        /* Área onde você escreve o texto */
+        .card-postagem .texto-conteudo {
+            font-size: 1.05rem;
+            color: #4a5568;
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        .texto-conteudo p {
+            margin: 0;
+        }
+
+.galeria-imagens {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px; 
+    width: 100%;
+}
+
+.galeria-imagens img {
+    width: calc(33.333% - 10px); 
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px; 
+}
+    strong{
+    color: #a307fd;
+    }
